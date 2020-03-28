@@ -37,7 +37,7 @@ async function getCaption(topic){
 
     function getListOfPromisesFromReddit(topic){
         return new Promise((resolve, reject)=>{
-            var queryURL = "http://www.reddit.com/search.json?q=" + topic + "&sort=comments&limit=10";
+            var queryURL = "https://www.reddit.com/search.json?q=" + topic + "&sort=comments&limit=10";
             var posts = [];
             var urls = [];
             var promises = [];
@@ -51,7 +51,7 @@ async function getCaption(topic){
                 for(var i = 0; i < posts.length; i++){
                     var id = posts[i].data.id;
                     var sub = posts[i].data.subreddit;
-                    queryURL = "http://www.reddit.com/r/" + sub + "/comments/" + id + ".json?";
+                    queryURL = "https://www.reddit.com/r/" + sub + "/comments/" + id + ".json?";
                     urls.push(queryURL);
                 }
                 for(var i = 0; i < urls.length; i++){
