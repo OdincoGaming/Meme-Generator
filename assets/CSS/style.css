@@ -51,7 +51,7 @@ input{
 }
 /*button click motion */
 .btn:active {
-    background-color: #3e8e41;
+    background-color: #275829;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
