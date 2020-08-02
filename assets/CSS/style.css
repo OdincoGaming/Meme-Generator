@@ -58,7 +58,7 @@ input{
 
  .jumbotron {
   margin-top: auto;
-  background-image: linear-gradient(to right,blue , red);
+  background-image: linear-gradient(to right,black , white);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -76,7 +76,7 @@ input{
 }
 
 #sticky-footer {
-  background-image: linear-gradient(to right,blue , red);
+  background-image: linear-gradient(to right,black , white);
   background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
