@@ -3,6 +3,7 @@
 Meme Generation With Giphy and Reddit
 
 ## Getting Started
+recent changes to Reddit's API policy mean you can only generate a few memes an hour. 
 
 deployed project
 -----------------
